@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Banqueiro S.A.</title>
+<meta name="description" content="Simulador de banco no navegador: defina taxas, conceda crédito, administre o caixa, contrate, invista em tecnologia e sobreviva às crises sem quebrar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..700&family=Bodoni+Moda:opsz,wght@6..96,500..700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app">
+  <header class="note" id="header"></header>
+  <nav class="tabs" id="tabs" role="tablist" aria-label="Seções do banco"></nav>
+  <main class="main" id="main"><div class="view" id="view" role="region" aria-live="off"></div></main>
+</div>
+<div id="modal-root"></div>
+<div class="toasts" id="toasts" role="status" aria-live="polite"></div>
+<noscript><p style="padding:16px">O Banqueiro S.A. precisa de JavaScript para funcionar.</p></noscript>
+<script src="js/util.js"></script>
+<script src="js/config.js"></script>
+<script src="js/economy.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/events.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
